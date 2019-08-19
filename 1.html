@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var arr =[1,2,4,3,5,3,4,6]
+    // var num = arr.indexOf(3,4)
+    // console.log(num)
+
+    let arr = [6,1,2,3,4,2,2,5,1]
+    let set = new Set(arr)
+    console.log([...set])
+
+    // let arr2 = []
+    // for(let i of set){
+    //     console.log(i)
+    //     arr2.push(i)
+    // }
+
+    function fn (a){
+        let set = new Set(a)
+        return [...set]
+    }
+    console.log(fn(arr))
+
+    let fn2= a => [...new set(target)]
+</script>
+
+</body>
+</html>
